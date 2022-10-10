@@ -387,10 +387,10 @@ Version:  1.0
  .mobile_header .photty_image_logo{
      margin-top: 0;
      width: 168px;
-     height: 36px;
+     height: 75px;
      display: block;
      background: url(../img/logo.png) 0 0 no-repeat transparent;
-     background-size: 168px 36px;
+     background-size: 168px 78px;
      margin: 3px 0;
 }
  .btn_mobile_menu {

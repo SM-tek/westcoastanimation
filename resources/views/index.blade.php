@@ -2,17 +2,22 @@
 <html lang="en">
 
     <head>
+    <!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a93ef8d6-8a88-420b-9ff9-955801aba3d5"> </script>
+<!-- End of  Zendesk Widget script -->
         <!-- Meta -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Dolunay - Creative Portfolio Multi-Purpose & Personal HTML Template">
-        <meta name="keywords" content="Html, Css, jQuery, JavaScript, Dolunay, Multi-Purpose, responsive, personal, Portfolio, design, creative, template">
+        <meta name="description" content="Westcoast Animations is known for delivering exceptional quality illustrations and animation at highly affordable rates.
+">
+       <meta name="keywords" content="westcoast animations, westcoast, animations, animation, , westcoast animation, westcoast logo, westcoast animation style, illustrations, Portfolio, design, creative">
+            <meta name="p:domain_verify" content="83e4a9a15db2035aa55fd35cc747a578"/>
 
         <!-- Title -->
-        <title>WestCoastAnimations</title>
+        <title>Westcoast Animations</title>
         <!-- Favicon -->
-        <link rel="icon" href="assets/images/icon.png">
+        <link rel="icon" href="../img/logo.png">
         <!-- Google Fonts -->
         <link rel="stylesheet" href="../../css2.css?family=Roboto:wght@300;400;500;700;900&display=swap">
         <link rel="stylesheet" href="../../css2-1.css?family=Poppins:wght@300;400;500;600;700;800&display=swap">
@@ -29,6 +34,28 @@
             <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="assets/css/main.54f64dbb.chunk.css">
 
+
+    <link href="assets1/css/flaticon.css" rel="stylesheet">
+    <link href="assets1/css/boot.min.css" rel="stylesheet">
+    <link href="assets1/sass/style.css" rel="stylesheet">
+        <link href="assets1/css/themify-icons.css" rel="stylesheet">
+    <link href="assets1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets1/css/flaticon.css" rel="stylesheet">
+    <link href="assets1/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets1/css/animate.css" rel="stylesheet">
+    <link href="assets1/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets1/css/owl.theme.css" rel="stylesheet">
+    <link href="assets1/css/slick.css" rel="stylesheet">
+    <link href="assets1/css/slick-theme.css" rel="stylesheet">
+    <link href="assets1/css/swiper.min.css" rel="stylesheet">
+    <link href="assets1/css/nice-select.css" rel="stylesheet">
+    <link href="assets1/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets1/css/jquery.fancybox.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+
+
+
         <style>
 
             .slideshow {
@@ -37,6 +64,456 @@
 *{
   font-family: "Rany-Bold";
 }
+body {
+  background-blend-mode: normal !important;
+}
+.photty_image_logo{
+background: none !important;
+}
+
+
+/*@media only screen and (max-width: 1920px) and (min-width: 1919px)  {
+.photty_menu{
+margin-left:-111% !important;
+}*/
+
+}
+/*@media only screen and (max-width: 1280px) and (min-width: 1024px)  {
+.photty_menu{
+margin-left:-51% !important;
+}*/
+
+}
+@media only screen and (max-width: 1366px) and (min-width: 1365px)  {
+.photty_menu{
+margin-left:-61% !important;
+}
+
+}
+.photty_menu{
+float: none;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section{
+ /* padding: 20px 100px; */
+}
+
+.section-home{
+  position: relative;
+  min-height: 100vh;
+  background: url(bg.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-home:before{
+  content: '';
+  position: absolute;
+  background: linear-gradient(to top, #23252B, transparent);
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+}
+
+.section-home h1{
+  color: #fff;
+  font-size: 10vw;
+  font-weight: 800;
+  text-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  opacity: 0.3;
+}
+
+.section-two{
+  min-height: 100vh;
+  background: #23252B;
+}
+
+.section-two h2{
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.section-two p{
+  color: #fff;
+  font-size: 1em;
+  margin: 30px 0;
+}
+
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      background-color: #0006 !important;
+    opacity: 0.9 !important;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  padding: 0 100px;
+  transition: 0.6s;
+}
+
+header .logo{
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+header .navigation{
+margin-top:4.7%;
+  position: relative;
+  line-height: 75px;
+  transition: 0.6s;
+  transition-property: line-height;
+}
+
+header.sticky .navigation{
+  line-height: 60px;
+}
+
+header .navigation .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  user-select: none;
+}
+
+.menu-item > a{
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 20px;
+  padding: 25px 0;
+}
+
+.menu-item > a:hover{
+  color: #469DFF;
+  transition: 0.3s;
+}
+
+.menu-item .sub-menu{
+  position: absolute;
+  background: #23252B;
+  top: 74px;
+  line-height: 40px;
+  list-style: none;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+ /* pointer-events: none; */
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+}
+
+header.sticky .menu-item .sub-menu{
+  top: 60px;
+}
+
+.menu-item:hover .sub-menu{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.menu-item .sub-menu .sub-item{
+  position: relative;
+  padding: 7px 0;
+  cursor: pointer;
+  box-shadow: inset 0px -30px 5px -30px rgba(255, 255, 255, 0.2);
+}
+
+.menu-item .sub-menu .sub-item a{
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+.menu-item .sub-menu .sub-item:hover{
+  background: #4080EF;
+}
+
+.menu-item .sub-menu .sub-item:last-child:hover{
+  border-radius: 0 0 8px 8px;
+}
+
+.more .more-menu{
+  position: absolute;
+  background: #23252B;
+  list-style: none;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+  border-radius: 0 8px 8px 8px;
+  overflow: hidden;
+/*  pointer-events: none; */
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+}
+
+.more:hover .more-menu{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.more .more-menu .more-item{
+  padding: 7px 0;
+  box-shadow: inset 0px -30px 5px -30px rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.more .more-menu .more-item:hover{
+  background: #4080EF;
+}
+
+.menu-btn{
+  display: none;
+}
+
+@media (max-width: 1060px){
+  header .navigation .menu{
+    position: fixed;
+    display: block;
+    background: #23252b;
+    min-width: 350px;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    padding: 90px 50px;
+    visibility: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+    transition-property: right, visibility;
+  }
+
+  header.sticky .navigation{
+    line-height: 75px;
+  }
+
+  header .navigation .menu.active{
+    right: 0;
+    visibility: visible;
+  }
+
+  .menu-item{
+    position: relative;
+  }
+
+  .menu-item .sub-menu{
+    opacity: 1;
+    position: relative;
+    top: 0;
+    transform: translateX(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+  }
+
+  header.sticky .menu-item .sub-menu{
+    top: 0;
+  }
+
+  .menu-item:hover .sub-menu{
+    transform: translateX(10px);
+  }
+
+  .menu-item .sub-menu .sub-item{
+    box-shadow: none;
+  }
+
+  .menu-item .sub-menu .sub-item:hover{
+    background: none;
+  }
+
+  .menu-item .sub-menu .sub-item a:hover{
+    color: #4080EF;
+    transition: 0.3s;
+  }
+
+  .more .more-menu{
+    opacity: 1;
+    position: relative;
+    left: 0;
+    transform: translateY(0);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    display: none;
+  }
+
+  .more .more-menu .more-item{
+    box-shadow: none;
+  }
+
+  .more .more-menu .more-item:hover{
+    background: none;
+  }
+
+  .more .more-menu .more-item a{
+    margin-left: 20px;
+  }
+
+  .close-btn{
+    position: absolute;
+    background: url(close.png)no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 25px;
+    background-position: center;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    cursor: pointer;
+  }
+
+  .menu-btn{
+    background: url(menu.png)no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+    display: block;
+  }
+
+  header{
+    padding: 15px 20px;
+  }
+
+  header.sticky{
+    padding: 10px 20px;
+  }
+}
+      
+      
+.hamburger{
+display:none;
+cursor:pointer;
+}
+.bar{
+display:block;
+width:25px;
+height:3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: white;
+}
+
+@media(max-width:1060px){
+.hamburger{
+display:block;
+margin-left:90%;
+}
+.hamburger.active .bar:nth-child(2){
+opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+transform: translateY(-8px) rotate(-45deg);
+}
+.menu{
+position:fixed;
+left:-100%;
+top:70px;
+gap:0;
+flex-direction: column;
+background-color: #262626;
+width:100%;
+text-align:center;
+transition:0.3s;
+}
+.menu-item.active{
+margin:16px 0;
+}
+.menu.active{
+left:0;
+}
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
         </style>
 
         <!--[if lt IE 9]>
@@ -46,7 +523,7 @@
 
     </head>
 
-    <body class="cursor-effect">
+    <body class="cursor-effect" >
 
         <!-- ========== Start Cursor ==========
 
@@ -63,7 +540,193 @@
          <!-- ========== End Preloader ========== -->
 
         <!-- ========== Start Navbar ========== -->
-@include('components.header')
+
+<!--
+<header class="photty_header">
+    <div class="row ">
+        <div class="col col-12 photty_def_header">
+            <div class="photty_logo_cont">
+                <a href="{{route("index")}}" class="photty_image_logo">
+                </a>
+            </div>
+            <nav class="photty_menu_cont"  >
+                <ul id="menu-main-menu" class="photty_menu">
+                    <li class="menu-item"><a href="{{route("index")}}" id="hm" >Home</a></li>
+                    <li class="menu-item "><a href="{{route("services")}}" id="sv">Services 
+                    </a>
+                <ul class="sub-menu">
+                            <li class="menu-item photty_sub_menu_active"><a href="{{route("animation2d")}}">2D Animation</a></li>
+                            <li class="menu-item "><a href="{{route("animation3d")}}">3D Animation</a></li>
+                            <li class="menu-item"><a href="{{route("explainer")}}">Explainer</a></li>
+                            <li class="menu-item"><a href="{{("illustration")}}">Illustration</a></li>
+                            <li class="menu-item"><a href="{{route("screencast")}}">Screencast</a></li>
+                            <li class="menu-item"><a href="{{route("logo")}}">Logo Animation</a></li>
+                            <li class="menu-item"><a href="{{route("typography")}}">Typography</a></li>
+                            <li class="menu-item"><a href="{{route("whiteboard")}}">Whiteboard</a></li>
+                            <li class="menu-item"><a href="{{route("commercial")}}">Commercial</a></li>
+                        </ul>   
+                    </li>
+                    <li class="menu-item"><a href="{{route("portfolio")}}" id="pf" >Portfolio</a>
+                        <!--<ul class="sub-menu">
+                            <li class="menu-item"><a href="blog-grid.html">Grid</a></li>
+                            <li class="menu-item"><a href="blog-fullwidth.html">Fullwidth</a></li>
+                            <li class="menu-item"><a href="blog-left-sidebar.html">With Left Sidebar</a></li>
+                            <li class="menu-item"><a href="blog-right-sidebar.html">With Right sidebar</a></li>
+                            <li class="menu-item"><a href="#">Blog Posts<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                <ul class=" sub-menu1">
+                                    <li class="menu-item"><a href="blog-single-post.html">Standard Post</a></li>
+                                    <li class="menu-item"><a href="blog-single-post-image.html">Image Post</a></li>
+                                    <li class="menu-item"><a href="blog-single-post-video.html">Video Post</a></li>
+                                    <li class="menu-item"><a href="blog-single-post-audio.html">Audio Post</a></li>
+                                    <li class="menu-item"><a href="blog-single-post-quote.html">Quote Post</a></li>
+                                </ul>
+                            </li>
+                        </ul>-->
+                    </li>
+                    
+                        <!--<ul class="sub-menu">
+                            <li class="menu-item "><a href="typography.html">Typography</a></li>
+                            <li class="menu-item"><a href="boxed-layout.html">Boxed Layout</a></li>
+                            <li class="menu-item"><a href="stripes-fullscreen.html">Photographers</a></li>
+                            <li class="menu-item"><a href="404.html">404 Page</a></li>
+                            <li class="menu-item"><a href="coming-soon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        <div class="mobile_header ">
+            <a href="{{route("index")}}" class="photty_image_logo"></a>
+            <a href="javascript:void(0)" class="btn_mobile_menu">
+                <span class="photty_menu_line1"></span>
+                <span class="photty_menu_line2"></span>
+                <span class="photty_menu_line3"></span>
+            </a>
+        </div>
+    </div>
+</header>
+-->
+    <div class="container">
+      <div class="ticker">
+        <div class="title" ><h5 style="color:#fe1">ALERT</h5></div>
+        <div class="news">
+          <marquee>
+            <p style="color:#fe1; font-weight: bold; font-size:21px;" >
+Our Phone Lines are down due to some technical issues. Please get in touch with us at info@westcoastanimations.com & zacwolfesr@gmail.com
+          </p>
+          </marquee>
+        </div>
+      </div>
+    </div>
+  <header>
+      
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+          <li class="menu-item"><a href="{{route("index")}}">Home</a></li>
+          <!--
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Dropdown <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">Sub Item 01</a></li>
+              <li class="sub-item"><a href="#">Sub Item 02</a></li>
+              <li class="sub-item"><a href="#">Sub Item 03</a></li>
+            </ul>
+          </li>
+          -->
+          
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Services <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item more">
+                <a class="more-btn" style="background-color: black !important;" href="#">Development <i class="fas fa-angle-right"></i></a>
+                <ul class="more-menu">
+              <li class="more-item"><a href="{{route("webdevelopment")}}">Web Development</a></li>
+              <li class="more-item"><a href="{{route("appdevelopment")}}">App Development</a></li>
+              <li class="more-item"><a href="{{route("software")}}">Software Development</a></li>
+                </ul>
+              </li>
+              <li class="sub-item more">
+                <a class="more-btn" href="#">Design <i class="fas fa-angle-right"></i></a>
+                <ul class="more-menu">
+              <li class="more-item"><a  href="{{route("graphic")}}">Graphics Design</a></li>
+              <li class="more-item"><a  href="{{route("brand")}}">Brand Identity</a></li>
+              <li class="more-item"><a href="{{route("uiux")}}">UI/UX Design</a></li>
+                </ul>
+              </li>
+              <li class="sub-item more">
+                <a class="more-btn" href="#">Marketing <i class="fas fa-angle-right"></i></a>
+                <ul class="more-menu">
+              <li class="more-item"><a href="{{route("social")}}">Social Media Marketing</a></li>
+                </ul>
+              </li>
+              
+              <li class="sub-item more">
+                <a class="more-btn"  href="#">Animations <i class="fas fa-angle-right"></i></a>
+                <ul class="more-menu">
+              <li class="more-item"><a href="{{route("animation2d")}}">2D Animation</a></li>
+              <li class="more-item"><a href="{{route("animation3d")}}">3D Animation</a></li>
+              <li class="more-item"><a href="{{route("explainer")}}">Explainer</a></li>
+              <li class="more-item"><a href="{{("illustration")}}">Illustration</a></li>
+              <li class="more-item"><a href="{{route("screencast")}}">Screencast</a></li>
+              <li class="more-item"><a href="{{route("logo")}}">Logo Animation</a></li>
+              <li class="more-item"><a href="{{route("typography")}}">Typography</a></li>
+              <li class="more-item"><a href="{{route("whiteboard")}}">Whiteboard</a></li>
+              <li class="more-item"><a href="{{route("commercial")}}">Commercial</a></li>
+                </ul>
+              </li> 
+                            <li class="sub-item more">
+                <a class="more-btn"  href="{{route("videoediting")}}">Video Editing</a>
+              </li> 
+            </ul>
+          </li>
+          <li class="menu-item"><a  href="{{route("portfolio")}}">Portfolio</a></li>
+          <li class="menu-item"><a  href="{{route("whyus")}}">Why Us</a></li>
+          <li class="menu-item"><a  href="{{route("contact")}}">Contact</a></li>
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+      <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      </div>
+    </header>
+
+        <!-- ========== End Navbar ========== -->
+
+        <!-- ========== Start Header Follow ========== -->
+
+        <div class="header-follow">
+            <ul class="social" >
+                <li >
+                    <a class="cursor-alter" href="{{route("contact")}}" ><img id="price" src="assets/images/pricing.png"  alt="Get A Quote"></a>
+                </li>
+                            <li >
+                    <a class="cursor-alter" href="https://www.bark.com/en/us/company/westcoast-animations/2jgl4/" ><img  src="assets/images/bark.png" id="ba"  alt="Bark"></a>
+                </li>
+                <li >
+                    <a class="cursor-alter" href="https://www.trustpilot.com/review/westcoastanimations.com" ><img id="ta"  src="assets/images/download.png" alt="Trustpilot"></a>
+                </li>
+                <li >
+                    <a class="cursor-alter" href="https://www.facebook.com/WestcoastAnimations/"><img id="fb" src="assets/images/fb.webp"  alt="Facebook"></a>
+                </li>
+                <li>
+                    <a class="cursor-alter" href="https://www.linkedin.com/company/westcoastanimation/"><img id="ln" src="assets/images/174857.png"  alt="Linkedin"></a>
+                </li>
+                <li>
+                    <a class="cursor-alter" href="https://www.instagram.com/westcoastanimations/"><img id="ig"  src="assets/images/Instagram_icon.webp"  alt="Instagram"></a>
+                </li>
+            </ul>
+            <p id="fo">Follow Us</p>
+        </div>
+
+
+
+ 
+
 {{-- <header class="photty_header">
     <div class="row ">
         <div class="col col-12 photty_def_header">
@@ -116,7 +779,9 @@
                     <li class="menu-item"><a href="contacts.html">Contact</a></li>
                 </ul>
             </nav>
+            <!--
             <div class="clear"></div>
+            -->
         </div>
         <div class="mobile_header ">
             <a href="index.html" class="photty_image_logo"></a>
@@ -141,13 +806,13 @@
                             <div class="slideshow__slide-background-wrap background-absolute">
                                 <div class="slideshow__slide-background background-absolute">
                                     <div class="slideshow__slide-image-wrap background-absolute">
-                                        <div class="slideshow__slide-image background-absolute" >
+                                        <div class="slideshow__slide-image background-absolute">
                                         </div>
 
-<video autoplay muted loop class="vid-container">
+<!-- <video autoplay muted loop class="vid-container">
     <source src="assets/images/slider/FINAL VIDEO.mp4" type="video/mp4">
 
-  </video>
+  </video> -->
 
                                     </div>
                                 </div>
@@ -158,33 +823,25 @@
 
                <div class="slideshow__slide-caption">
                     <div class="slideshow__slide-caption-text">
-                        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header" style="margin-top: 25%;">
+                        <div class="container js-parallax" id="tab" data-speed="2" data-position="top" data-target="#js-header" >
                             <!--<h3 class="cat">Empower Your Imagination With Our Skills</h3>-->
-                                                    <div style="margin-left: -65%; display: -webkit-box; width: calc(133%-26px); margin-top: 19%;">
-                            <a style="margin-left: 55%; margin-top:1.1%;"                                 class="btn btnGradientOne aos-init aos-animate" data-aos="fade-up"
-                            data-aos-duration="1200" style="font-family: Rany !important;">Play Showreel </a>
-                                    <a style="margin-right: 16%; margin-top: 1.1%"
+                                                    <div id="i" >
+                            <a                                 class="btn btnGradientOne aos-init aos-animate" data-aos="fade-up"
+                            data-aos-duration="1200"  id="ps" href="{{route('portfolio')}}" style="margin-left:57% ;">Play Showreel </a>
+                                    <a 
                                 class="btn btnGradientOne aos-init aos-animate" data-aos="fade-up"
-                                data-aos-duration="1200" style="font-family: Rany !important;">Get Free Proposal </a>
+                                data-aos-duration="1200" id="ps1" href="{{route('contact')}}" style="margin-right:20%;">Get Proposal </a>
                         </div>
                         <div class="badges  mt-20">
-                            <div class="bark-widget"><a href="#" target="_blank" class="bark-widget" data-type="pro"
-                                    data-id="NjEAE" data-image="large-gold" data-version="3.0" rel="noreferrer"><img
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAABACAYAAABiKVlNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF8WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTExLTA4VDA0OjAwOjIyKzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0xMS0wOFQwNDowMyswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0xMS0wOFQwNDowMyswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4YzgyYTExNy05NWFmLTBkNDgt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"
-                                        alt="Bark"></a>
-                                <script type="text/javascript"
-                                    src="https://d3a1eo0ozlzntn.cloudfront.net/assets/js/frontend-v2/widgets-v2.b9c82a02a3.v2.js"
-                                    defer=""></script>
-                            </div>
-                            <div class="trustpilot-widget" data-locale="en-US"
-                                data-template-id="56278e9abfbbba0bdcd568bc"
-                                data-businessunit-id="60e7e9bebb17b10001b482a4" data-style-height="52px"
-                                data-style-width="100%"><a
-                                    href="" target="_blank"
-                                    rel="noopener"><img
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAABACAYAAABiKVlNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF+mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTExLTA4VDA0OjAwOjIyKzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0xMS0wOFQwNDowMzoxNSswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0xMS0wOFQwNDowMzoxNSswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0NWRlYzQwMy05YmVjLTg0NDMtOTg2My04MzRlZDJjNGYzNzIiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo4ZjdlMGRkZi1iNGFlLThhNDctYmE1Zi1jMTYwMDNlZGM4YTUiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphOTI0YzlhZC1mMzkzLWIyNGMtOWVlNC05NTZiZjJiMmVjMDgiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmE5MjRjOWFkLWYzOTMtYjI0Yy05ZWU0LTk1NmJmMmIyZWMwOCIgc3RFdnQ6d2hlbj0iMjAyMS0xMS0wOFQwNDowMDoyMiswNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NWRlYzQwMy05YmVjLTg0NDMtOTg2My04MzRlZDJjNGYzNzIiIHN0RXZ0OndoZW49IjIwMjEtMTEtMDhUMDQ6MDM6MTUrMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4q4HCkAAANSElEQVR4nO2debAUxRnAfx/i4xBFORVFQSreXIoRiVaAGMWBQvAAi9J4lUbLIxhzuWo8EscUVhGjRlPG+45WCUbcCCo+RcR4YMCyJBIPPCIgcggiPI4vf/Q8mO2dnZ3dN/OW99K/qq33pvub7m9n55v+uvvrHlFVHA5HOrSptQIOR2vCGZTDkSLOoByOFHEG5XC0OPK5SbVWweFoDiTzGvK5zsBioDeevzHz+hyOGtIcLt9YoDswohnqcjhqSnMY1ITg72nNUJfD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"
-                                        alt="Trustpilot"></a></div>
-                        </div>
+                        <!--
+<a href='https://www.bark.com/en/us/company/westcoast-studios/2jgl4/' id="barkpro" target='_blank' class='bark-widget' style="margin-top: -3% !important ; margin:0 3%;margin-left: -8px !important" data-type='pro' data-id='2jgl4' data-image='medium-navy' data-version='3.0'>Westcoast Studios</a><script type='text/javascript' src='https://d3a1eo0ozlzntn.cloudfront.net/assets/js/frontend-v2/widgets-v2.24a197bed6.v2.js' defer></script>
+
+  <a href='https://www.bark.com/en/us/company/westcoast-studios/2jgl4/' id="barkstudios" target='_blank' class='bark-widget' style="margin-top: -3% !important" data-type='reviews' data-id='2jgl4' data-image='medium-gold' data-version='3.0'>Westcoast Studios</a><script type='text/javascript' src='https://d3a1eo0ozlzntn.cloudfront.net/assets/js/frontend-v2/widgets-v2.24a197bed6.v2.js' defer></script>
+  -->
+
+           
+                            </div> 
+
                         <!--    <h1 class="slideshow__slide-caption-title" id="bt"></h1>
                             <a class="slideshow__slide-btn align-items-center" href="{{route('portfolio')}}">
                                 <span class="btn-content d-flex align-items-center">
@@ -220,6 +877,7 @@
                     </div> -->
                 </div>
             </div>
+
             <!--<div class="pagination">
                 <span class="pagination-current-number"></span>
                 <div class="pagination-progress">
@@ -228,13 +886,542 @@
                 <span class="pagination-total-number"></span>
             </div>-->
         </section>
+        <div class="wpo-service-area section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="wpo-section-title">
+                            <h2>Things We Are Good At
+</h2>
+                          <!--  <p>Must explain to you how all this mistaken idea of denouncing pleasure
+                                born and give you a complete account the system</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-service-wrap">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link  active" id="Development-tab" data-bs-toggle="tab" href="#Development" role="tab"
+                                aria-controls="Development" aria-selected="true">Development</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="Design-tab" data-bs-toggle="tab" href="#Design" role="tab"
+                                aria-controls="Design" aria-selected="false">Design</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="Marketing-tab" data-bs-toggle="tab" href="#Marketing" role="tab"
+                                aria-controls="Marketing" aria-selected="false">Marketing</a>
+                        </li>
+                                                <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="Animate-tab" data-bs-toggle="tab" href="#Animate" role="tab"
+                                aria-controls="Animate" aria-selected="false">Animations </a>
+                        </li>
+                    </ul>
+ 
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="Development">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-coding"></i>
+                                        </div>
+                                        <h2>Web Development</h2>
+                                        <p style="font-family: Rany;">Web development is everything involved in the creation of a website. Typically it refers to the coding and programming side.</p>
+                                        <a href="{{route("webdevelopment")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-app-development"></i>
+                                        </div>
+                                        <h2>App Development</h2>
+                                        <p style="font-family: Rany;">Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices, such as smartphones and other hand-held devices.</p>
+                                        <a href="{{route("appdevelopment")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-smartphone"></i>
+                                        </div>
+                                        <h2>Softwere Development</h2>
+                                        <p style="font-family: Rany;">Software engineers design, develop, and test software and applications for computers. Software itself is the set of instructions or programs</p>
+                                        <a href="{{route("software")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                                           <!--  <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-coding"></i>
+                                        </div>
+                                        <h2>Web Development</h2>
+                                        <p style="font-family: Rany;">Web development is everything involved in the creation of a website. Typically it refers to the coding and programming side.</p>
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-app-development"></i>
+                                        </div>
+                                        <h2>App Development</h2>
+                                        <p style="font-family: Rany;">Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices, such as smartphones and other hand-held devices.</p>
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-smartphone"></i>
+                                        </div>
+                                        <h2>Softwere Development</h2>
+                                        <p style="font-family: Rany;">Software engineers design, develop, and test software and applications for computers. Software itself is the set of instructions or programs</p>
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="Design">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-vector"></i>
+                                        </div>
+                                        <h2>Graphic Design</h2>
+                                        <p style="font-family: Rany;">Graphic design is a craft where professionals create visual content to communicate messages.</p>
+                                        <a href="{{route("graphic")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-palette"></i>
+                                        </div>
+                                        <h2>Brand Identity</h2>
+                                        <p style="font-family: Rany;">Brand identity is the visible elements of a brand, such as color, design, and logo, that identify and distinguish the brand in consumers' minds.</p>
+                                        <a href="{{route("brand")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-add"></i>
+                                        </div>
+                                        <h2>UI/UX Design</h2>
+                                        <p style="font-family: Rany;">The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design</p>
+                                        <a href="{{route("uiux")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                                           <!--     <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-vector"></i>
+                                        </div>
+                                        <h2>Graphic Design</h2>
+                                        <p style="font-family: Rany;" >Graphic design is a craft where professionals create visual content to communicate messages.</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-palette"></i>
+                                        </div>
+                                        <h2>Brand Identity</h2>
+                                        <p style="font-family: Rany;">Brand identity is the visible elements of a brand, such as color, design, and logo, that identify and distinguish the brand in consumers' minds.</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div>
+                                   <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-add"></i>
+                                        </div>
+                                        <h2>UI/UX Design</h2>
+                                        <p style="font-family: Rany;">The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="Marketing">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-social-media"></i>
+                                        </div>
+                                        <h2 style="font-family: Rany;">Social Media Marketing</h2>
+                                        <p>Interacting with customers and dealing with customers' enquiries. Developing new social media strategies and campaigns.</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-promotion"></i>
+                                        </div>
+                                        <h2>Digital Marketing</h2>
+                                        <p style="font-family: Rany;">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-email-marketing"></i>
+                                        </div>
+                                        <h2>Email Marketing</h2>
+                                        <p style="font-family: Rany;">Email marketing is a form of marketing that can make the customers on your email list aware of new products and discounts.</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div>
+                              <!--  <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-social-media"></i>
+                                        </div>
+                                        <h2>Social Media Marketing</h2>
+                                        <p style="font-family: Rany;">Interacting with customers and dealing with customers' enquiries. Developing new social media strategies and campaigns.</p>
+                                        <a href="{{route("social")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-promotion"></i>
+                                        </div>
+                                        <h2>Digital Marketing</h2>
+                                        <p style="font-family: Rany;">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.</p>
+                                        <a href="service-single.html">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <i class="fi flaticon-email-marketing"></i>
+                                        </div>
+                                        <h2>Email Marketing</h2>
+                                        <p style="font-family: Rany;">Email marketing is a form of marketing that can make the customers on your email list aware of new products and discounts.</p>
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                                                <div role="tabpanel" class="tab-pane" id="Animate">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                                   <img src="/assets1/images/2d-remove.png" alt="2D Animation" width="50" height="50">
+                                        </div>
+                                        <h2>2D Animation </h2>
+                                        <p style="font-family: Rany;">2D animation is the art of creating movement in a two-dimensional space. This includes characters, creatures, FX, and backgrounds.</p>
+                                        <a href="{{route("animation2d")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                             
+                                           <img src="/assets1/images/3d.png" alt="3D Animation" width="50" height="50">
+                                        </div>
+                                        <h2>3D Animation </h2>
+                                        <p style="font-family: Rany;">3D animation is the art of using motion to bring characters, vehicles, props, and more to life within TV shows, films, and games. 3D animation is a graphic technique.</p>
+                                        <a href="{{route("animation3d")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <img src="/assets1/images/exp.png" alt="Explainer" width="50" height="50">
+                                        </div>
+                                        <h2>Explainer Videos </h2>
+                                        <p style="font-family: Rany;">Explainer videos are short animated or live video explainers that explain what you do. We make animated explainer videos that are engaging</p>
+                                        <a href="{{route("explainer")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <img src="/assets1/images/illustration.png" alt="Illustration" width="50" height="50">
+                                        </div>
+                                        <h2>Illusrations</h2>
+                                        <p style="font-family: Rany;">Illustrative logos directs promising number of clients to your business. They are dynamic, unique and colorful, making your logo stand out in your niche.</p>
+                                        <a href="{{("illustration")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                            <img src="/assets1/images/screencast.png" alt="Screencast" width="50" height="50">
+                                        </div>
+                                        <h2>ScreenCast</h2>
+                                        <p style="font-family: Rany;">Screencast animation uses screen captures along with audio narration to walk the viewers through a product or service where the original photographs of digital products are used.</p>
+                                        <a href="{{route("screencast")}}">Learn More</a>
+                                    </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="wpo-service-item">
+                                        <div class="icon">
+                                           <img src="/assets1/images/logoanimate.png" alt="Logo Animation" width="50" height="50">
+                                        </div>
+                                        <h2>Logo Animation</h2>
+                                        <p style="font-family: Rany;">Animated Logo Design a logo that speaks volume, something that pops right off the screen, a logo that digital world seeks. Animated logo captivates your viewers.</p>
+                                        <a href="{{route("logo")}}">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ab-shape">
+                <svg width="995" height="1495" viewBox="0 0 995 1495" fill="none">
+                    <g opacity="0.3" filter="url(#filter0_f_39_4268)">
+                        <circle cx="247.5" cy="747.5" r="247.5" fill="#6d17a8" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_39_4268" x="-500" y="0" width="1495" height="1495"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4267" />
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+                <div class="wpo-project-area section-padding">
+            <div class="container">
+                <div class="wpo-section-title-s2">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-12">
+                            <div class="title">
+                                <h2>Recent Work.</h2>
+                                <p>Recent Projects Portfolio Web Page Design,Logo Design, Social Media Marketing, Digital Marketing and 3D Animations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 offset-lg-2">
+                            <div class="sec-title-icon">
+                                <i class="fi flaticon-self-growth"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-project-wrap wpo-project-slide owl-carousel">
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/7.jpg" alt="Social Media Agency">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">CEC - NFT Website</a></h2>
+                            <span>Web Development / Business</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/img-2.png" alt="3D Character">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">3D Animation - Video Animations</a></h2>
+                            <span>2D & 3D Animations</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/shop.jpg" alt="Cleaners Company Logo">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">BeHappyCleaners - Cleaning Services Logo</a></h2>
+                            <span>Logo / Designing</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/img-1.jpg" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">Closter - Social Media Agency</a></h2>
+                            <span>Web Development / Business</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/img-2.png" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">3D Animation - Video Animations</a></h2>
+                            <span>2D & 3D Animations</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/shop.jpg" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">BeHappyCleaners - Cleaning Services Logo</a></h2>
+                            <span>Logo / Designing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-p">
+                <svg width="1325" height="1687" viewBox="0 0 1325 1687" fill="none">
+                    <g filter="url(#filter0_f_39_4166)">
+                        <circle cx="481.5" cy="843.5" r="343.5" fill-opacity="0.27" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_39_4166" x="-362" y="0" width="1687" height="1687"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4166" />
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+            <div class="line-shape-1">
+                <img src="assets/images/project/line-1.png" alt="">
+            </div>
+            <div class="line-shape-2">
+                <img src="assets/images/project/line-2.png" alt="">
+            </div>
+        </div>
+  
 
+        <section class="priceSection position-relative mb-53" ><div class="container"><div class="text-center"><h2 class="mainHeading varient2 aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">Price Packages</h2></div><p class="text-center aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" style="font-family: Rany-Bold;">We’re happy to work on custom packages to meet your needs.</p><nav class="priceTabs"><ul class="nav nav-pills aos-init aos-animate" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1200"><li class="nav-item" role="presentation"><button class="nav-link active" id="11" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Logo Design/Animation</button></li><li class="nav-item" role="presentation"><button class="nav-link" id="22" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">2D Animation</button></li><li class="nav-item" role="presentation"><button class="nav-link" id="33" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">3D Animation</button></li><li class="nav-item" role="presentation"><button class="nav-link" id="44" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Whiteboard/Motion Graphics</button></li><li class="nav-item" role="presentation"><button class="nav-link" id="55" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Video Editing</button></li></ul></nav><div class="tab-content aos-init aos-animate" id="pills-tabContent" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><div class="PackageContainerSlider"><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Basic Shot</h4><h3 class="text-center">250<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom Animation Styles</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 4 Revisions</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 100% Satisfaction Guaranteed</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 100% Money Back guarantee</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Premium Shot</h4><h3 class="text-center">500<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom and Unique Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Unique and Custom Animation Styles</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 6 Revisions</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 100% Satisfaction Guaranteed</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 100% Money Back guarantee</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Professional Shot</h4><h3 class="text-center">800<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom and Professional Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Unique and Professional Animation Styles</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 8 Revisions</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 100% Satisfaction Guaranteed</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 100% Money Back guarantee</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div></div></div><div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><div class="PackageContainerSlider"><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Basic Shot</h4><h3 class="text-center">500<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom Script</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Storyboard</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Animations</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Voice Over</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Premium Shot</h4><h3 class="text-center">750<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Script</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Storyboard Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Fine Animations</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Premium Voice Over</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Professional Shot</h4><h3 class="text-center">900<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Elite Script</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Storyboard Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> HQ Animations</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Voice Over</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div></div></div><div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="PackageContainerSlider"><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Basic Shot</h4><h3 class="text-center">800<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Script &amp; Concept</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Pre/Production/Post</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Rendering Service Included</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Voice Over - All accents</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Premium Shot</h4><h3 class="text-center">1200<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Premium Script &amp; Concept</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom Pre/Production/Post</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Rendering Service Included</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Music and Foley</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Professional Shot</h4><h3 class="text-center">1400<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Script &amp; Concept</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> High-End Pre/Production/Post</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Rendering Service Included</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Music and Foley</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div></div></div><div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="PackageContainerSlider"><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Basic Shot</h4><h3 class="text-center">300<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom Script</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Storyboard</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Animations</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Voice Over</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Premium Shot</h4><h3 class="text-center">600<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Premium Script</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Premium Storyboard Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Fine Animations</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Premium Voice Over</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Professional Shot</h4><h3 class="text-center">800<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 30sec Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Script</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Storyboard Design</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> HQ Animations</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Premium Voice Over</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div></div></div><div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="PackageContainerSlider"><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Basic Shot</h4><h3 class="text-center">250<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 1 min Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Baisc Editing &amp; CC</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Cool Transitions</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Basic Text Animation</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Royalty Free Music</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0" href="{{route("contact")}}"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Premium Shot</h4><h3 class="text-center">450<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 1 min Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Advance Editing &amp; CC</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Dynamic Transitions</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Custom Text Animation</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Royalty Free Music</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div><div class="price-container slidepack aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700"><h4 class="text-center fw-bolder mt-4 pb-2 border-white">Professional Shot</h4><h3 class="text-center">600<sup class="fw-normal fs-6">$</sup></h3><ul><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> 1 min Duration</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Editing &amp; CC</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Dynamic/Elite Transitions</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Professional Text Animation</span></li><li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAABHNCSVQICAgIfAhkiAAAAylJREFUSEvFlUtME1EUhu+dzrR0aKGCtAQNgolVdyyMJo0BiYk7V7ogLBSNmrh1YXQBKAuXrNggAvJ0oW5MSDTGAAlE8MHOAMZEF8YYItDSdjrt0Hs9Z5ip09KWR5s4ycm87pxv/vO6lPyHgxaTyTlHfwKYDQyvk2iUUm7lFA1qAEVwLi9EJmoWou8CN3zdr+A+AhYHMDPBRYFagO5FZa5ucn3wGSNJf4VY097q6xoA2DqYaiouGGoFLinz9dPB4XFOuB8AJMk3SYVU095S1dkH0DV4pqHagqBW4LLy4eh0aHhM4wm/xhIEoQ7qhKRuEqfgunu9ursHnsUKguYCqixKNKYSSSgBmJuAajiX5oZaqg8rEA9MPsusvlzAOFNIHKACFXWgSCVSIR7qaPF2PM4aXsORhNU3vvLwFBJbvZ2f4KSAaSY4O1DzI8wKlKiDVNmPPLh88F4/fL+6rZAMR3Z4UfYm2Bv4qnwcQehx+fSVC55bs3C5AZYw1GNbuK05zFSIQK9Y23XJex+BfwxgessAFB2VvQ32NX2LfR4SiOjeim0yfMJ5pq3Z0zZjgPFDVyHAVCEB1PFy7dG53+r35yJ1uDe5RhiUO+YGijB8Ug5cay6/Oof/AVE4PBUaGsUqxaJJQB7NHO6k0IjUVsv8g/54Acl3oTMMmQDTzC44iY2K4QbX+dt1csOviZWe3gRXj8W5si+gVSmGt3wy+LRpKTY/lGSaK8YiRONxBJISoZTYqRyRqBRRmVId5/hTMf0dVuluFWYqRcVYSAcmQ6ONy8psPzQ4gMOgRtWdOwRZVw4q9Z/BdtgPMKXUCDGCHQieCo01LikzT0wwhprpLYsjjIJqJ5FtZXtWmKbUvDFaZxtYYRsE88w5A8UI9AC4JG9bmD6znbfNXit4OjRy9kt0ZgAGtwtDigfmD6vVZ6/Hxh/M1of5gGnhtS60gD1QXIFF5T30rs2FwcUBXrk12hC4BoZbVqrxdwLmhFpynJpSP2PLNzlhbp+9dvBi5Z3XsCYElrY57waYF2oB6/PYMEwHbk9RsETmRlAUqAWMu07enWe3wB2V7sXRXtb+BWTz3yfYkMEzAAAAAElFTkSuQmCC" alt="checkIcon"><span class="ps-2"> Paid Free Music</span></li></ul><div class="d-grid gap-2 mt-4"><a class="btn btnfull d-flex border-0"><span class="lh-lg mx-auto">Order Now</span></a></div></div></div></div></div></div></section>
+     
+  <section class="contact-section" style="margin-top: -5%">
+    <div class="container">
+        <div class="contact-wrap d-flex justify-content-between">
+            <div class="d-flex flex-column">
+                <p class="sub-heading">Get In Touch</p>
+                <h2 class="heading">Let’s Make Something Great Together</h2>
+            </div>
+            <div class="btn-box d-flex justify-content-end align-items-center">
+
+                <a class="contact-btn align-items-center" href="{{route("contact")}}">
+                    <span class="btn-content d-flex align-items-center">
+                       <span class="btn-circles">
+                           <!-- <span class="btn-circle"></span>
+                            <span class="btn-small-circle d-flex">
+
+                            </span>
+                        </span> -->  
+                        <span class="btn-txt" style="font-family: Rany-Bold !important">Contact Us</span>
+                    </span>
+                </a> 
+            </div>
+            <div class="row" style="margin-top:6%">
+                <div class="col-sm-6">
+                    <div class="footer-widget">
+                        <h6 class="widget-title" style="color:white; margin-right:48%; font-size: 23px;">Services</h6>
+                        <div class="footer-menu-link">
+                            <ul class="list-unstyled">
+                                <li><a href="{{route("animation2d")}}" style="color:white; font-family:Rany-Bold">2D-Animation</a></li>
+                                <li><a href="{{route("animation3d")}}" style="color:white; font-family:Rany-Bold">3D-Animation</a></li>
+                                <li><a href="{{route("logo")}}" style="color:white; font-family:Rany-Bold">Logo-Animation</a></li>
+                              <!--  <li><a href="https://westcoastanimations.com/Typography">Typography</a></li>
+                                <li><a href="https://westcoastanimations.com/Explainer-Videos">Explainer-Videos</a></li>
+                                <li><a href="https://westcoastanimations.com/ScreenCast">Screen-Cast</a></li>
+                                <li><a href="https://westcoastanimations.com/Whiteboard-Animation">White-Board</a></li>
+                                <li><a href="https://westcoastanimations.com/Illustrations">Illustration</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget" id="ft">
+                        <h6 class="widget-title" id="ft1" style="color:white; margin-right:-51%; margin-left:-157%; font-size: 23px;" >Resourses</h6>
+                        <div class="footer-menu-link" >
+                            <ul class="list-unstyled">
+                                <!--<li><a href="blog.html">Blog</a></li>-->
+                                <!--<li><a href="https://westcoastanimations.com/Case-Study">Case Studies</a></li>-->
+                                <li><a href="{{route("portfolio")}}" id="ft2" style="font-family: Rany-Bold !important; color:white; margin-left:-63%">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h6 class="widget-title" id="ft3" style="color:white; margin-left:-18%; font-size: 23px;">Support</h6>
+                        <div class="footer-menu-link">
+                            <ul class="list-unstyled" id="ft4" style="font-family: Rany-Bold !important;color:white; margin-left:-8%" >
+                                <li><a href="{{route("contact")}}" style="color: white">Contact</a></li>
+                                <li><a href="{{route("policy")}}" style="color: white">Privacy_Policy</a></li>
+                                <li><a href="{{("term")}}" style="color: white">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="left-area">
+                    <div class="footer-social-media">
+                        <ul class="list-unstyled d-flex" style="font-family: Rany !important">
+                            <li>
+                                <a class="parallax-item not-hide-cursor" href="https://www.facebook.com/WestcoastAnimations/">Fb.</a>
+                            </li>
+                            <li>
+                                <a class="parallax-item not-hide-cursor" href="https://twitter.com/WestcoastAnim">Tw.</a>
+                            </li>
+                            <li>
+                                <a class="parallax-item not-hide-cursor" href="https://www.behance.net/westcoastanimations">Be.</a>
+                            </li>
+                            <li>
+                                <a class="parallax-item not-hide-cursor" href="https://dribbble.com/Animations01">Dr.</a>
+                            </li>
+                            <li>
+                                <a class="parallax-item not-hide-cursor" href="https://www.linkedin.com/company/westcoastanimations/">Ln.</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-area">
+                    <p style="font-family: Rany !important">2022 &copy; Copyright  <a class="cursor-alter not-hide-cursor" href="#" style="color:white; font-family: Rany !important;" >WestCoast Animations</a>. </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+                <script src="assets1/js/jquery.min.js"></script>
+        <script src="assets1/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugins for this template -->
+        <script src="assets1/js/modernizr.custom.js"></script>
+        <script src="assets1/js/jquery.dlmenu.js"></script>
+        <script src="assets1/js/jquery-plugin-collection.js"></script>
+        <!-- Moving Animation -->
+        <script src="assets1/js/moving-animation.js"></script>
+        <!-- Custom script for this template -->
+        <script src="assets1/js/script.js"></script>
         <!-- ========== End Home Slider ========== -->
 
         <!-- ========== Js ========== -->
 
         <!-- Jquery -->
-                <script type="text/javascript">
+             <!--   <script type="text/javascript">
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
             (function(){
             var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -245,7 +1432,7 @@
             s0.parentNode.insertBefore(s1,s0);
             })();
             document.querySelector('.eapps-link').remove();
-            </script>
+            </script> -->
             	{{-- <a href="javascript:void(0)" class="photty_albums_btn_prev"></a>
                 <a href="javascript:void(0)" class="photty_albums_btn_next"></a> --}}
                 <script src="js/jquery-3.2.1.min.js"></script>
@@ -270,6 +1457,54 @@
         <!-- Main custom-->
         <script src="assets/js/custom.js"></script>
 
+
+   <script type="text/javascript">
+    //jquery for toggle dropdown menus
+    $(document).ready(function(){
+      //toggle sub-menus
+      $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+      });
+
+      //toggle more-menus
+      $(".more-btn").click(function(){
+        $(this).next(".more-menu").slideToggle();
+      });
+    });
+
+    //javascript for the responsive navigation menu
+    var menu = document.querySelector(".menu");
+    var menuBtn = document.querySelector(".menu-btn");
+    var closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    //javascript for the navigation bar effects on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+    
+    
+    
+    <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".menu");
+    
+    hamburger.addEventListener("click", ()=> {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    })
+
+    </script>
+      
     </body>
 
 </html>

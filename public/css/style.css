@@ -239,19 +239,22 @@ Version:  1.0
 }
 /* Header */
  .photty_image_logo{
-     width: 168px;
-     height: 76px;
+     width: 173px;
+     height: 94px;
      display: block;
      background: url(../img/logo.png) 0 0 no-repeat transparent;
-     background-size: 170px 76px;
+     background-size: 175px 96px;
 }
  .photty_logo_cont{
      padding: 22px 0;
      float: left;
 }
  .photty_header{
+     margin-top: -1%;
+     background-color: #0006 !important;
+     opacity: 0.9 !important;
      background-color: rgba(31,35,47, 1);
-     height: 12%;
+     height: 9%;
      z-index: 1000;
      transition: all 0.3s;
 }
@@ -267,7 +270,7 @@ Version:  1.0
      float: right;
      display: block;
      max-height: 80px;
-     padding-right: 4px;
+     padding-right: 86px;
 }
  .photty_menu{
      display: inline-block;
@@ -323,7 +326,7 @@ Version:  1.0
      position: absolute;
      margin: 0;
      top: 85px;
-     left: 50%;
+ /*    left: 50%; */
      width: 200px;
      background-color: #1f232f;
      text-align: left;
@@ -395,10 +398,10 @@ Version:  1.0
  .mobile_header .photty_image_logo{
      margin-top: 0;
      width: 168px;
-     height: 36px;
+     height: 75px;
      display: block;
      background: url(../img/logo.png) 0 0 no-repeat transparent;
-     background-size: 168px 36px;
+     background-size: 168px 78px;
      margin: 3px 0;
 }
  .btn_mobile_menu {
@@ -4086,3 +4089,97 @@ Version:  1.0
       margin-right:60%;
     }
   }
+.social{
+  margin-top: -387% !important;
+}
+#fo{
+font-family: "Rany-Bold" !important;
+}
+
+#tab{
+margin-top: 29% !important;
+}
+#i{
+margin-left: -65%;
+display: -webkit-box;
+width: calc(133%-26px);
+margin-top: 19%;
+}
+#ps{
+font-family: "Rany";
+margin-left: 49%;
+margin-top:-6.5% !important;
+/*font-family: "Rany-Bold" !important;*/
+}
+#ps1{
+font-family: "Rany";
+margin-right: 10%;
+margin-top: -6.5%;
+
+}
+#mb{
+margin-bottom: 10%
+}
+#price{
+max-width: 207%;
+margin-left:-35%;
+margin-bottom:29%;
+}
+#ba{
+max-width: 113%;
+margin-bottom:50%;
+}
+#ta{
+max-width: 156%;
+}
+#fb{
+max-width: 113%;
+}
+#ln{
+max-width: 113%;
+}
+#ig{
+max-width: 113%;
+}
+#hm{
+font-family: "Rany";
+}
+#sv{
+font-family: Rany;
+}
+#pf{
+font-family: Rany;
+}
+#whyus{
+font-family: Rany;
+}
+#ct{
+font-family: Rany;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1279px){
+#ps{
+margin-top:-19.5% !important;
+margin-left: -56% !important;
+}
+#ps1{
+margin-top:-19.5% !important;
+margin-left:59% !important;
+}
+#i{
+margin:39%;
+}
+}
+@media only screen and (max-width: 1280px) and (min-height: 940px){
+#ps{
+margin-top:-33.5% !important;
+margin-left: -56% !important;
+}
+#ps1{
+margin-top:-33.5% !important;
+margin-left:59% !important;
+}
+#i{
+margin:39%;
+}
+}

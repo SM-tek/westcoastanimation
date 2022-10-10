@@ -1,28 +1,33 @@
 
-<header class="photty_header" style="margin-top: -1%;">
+<header class="photty_header">
     <div class="row ">
         <div class="col col-12 photty_def_header">
             <div class="photty_logo_cont">
                 <a href="{{route("index")}}" class="photty_image_logo">
                 </a>
             </div>
-            <nav class="photty_menu_cont" style="padding-right: 86px !important;" >
+            <nav class="photty_menu_cont"  >
                 <ul id="menu-main-menu" class="photty_menu">
-                    <li class="menu-item"><a href="{{route("index")}}" style="font-family: Rany;">Home</a></li>
-                    <li class="menu-item "><a href="{{route("services")}}" style="font-family: Rany;">Services</a>
-                        <!--<ul class="sub-menu">
-                            <li class="menu-item"><a href="album-listing.html">Albums Listing</a></li>
-                            <li class="menu-item photty_sub_menu_active"><a href="album-slider.html">Albums Slider</a></li>
-                            <li class="menu-item"><a href="album-single.html">Inside Album</a></li>
-                            <li class="menu-item"><a href="grid-gallery.html">Grid Gallery</a></li>
-                            <li class="menu-item"><a href="masonry-gallery.html">Masonry Gallery</a></li>
-                            <li class="menu-item"><a href="ribbon-gallery.html">Ribbon Gallery</a></li>
-                            <li class="menu-item"><a href="index.html">Slider</a></li>
-                            <li class="menu-item"><a href="slider-thumbnails.html">Slider with Thumbs</a></li>
-                            <li class="menu-item"><a href="split-showcase.html">Split Showcase</a></li>
-                        </ul>-->
+                    <li class="menu-item"><a href="{{route("index")}}" id="hm" >Home</a></li>
+                    <li class="menu-item "><a href="{{route("services")}}" id="sv" >Services <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item photty_sub_menu_active"><a href="{{route("animation2d")}}">2D Animation</a></li>
+                            <li class="menu-item "><a href="{{route("animation3d")}}">3D Animation</a></li>
+                            <!--
+                            <li class="menu-item "><a href="{{route("webdevelopment")}}">Web Development</a></li>
+                            <li class="menu-item "><a href="{{route("graphic")}}">Graphics Design</a></li>
+                            -->
+                            <li class="menu-item"><a href="{{route("explainer")}}">Explainer</a></li>
+                            <li class="menu-item"><a href="{{("illustration")}}">Illustration</a></li>
+                            <li class="menu-item"><a href="{{route("screencast")}}">Screencast</a></li>
+                            <li class="menu-item"><a href="{{route("logo")}}">Logo Animation</a></li>
+                            <li class="menu-item"><a href="{{route("typography")}}">Typography</a></li>
+                            <li class="menu-item"><a href="{{route("whiteboard")}}">Whiteboard</a></li>
+                            <li class="menu-item"><a href="{{route("commercial")}}">Commercial</a></li>
+                        </ul> 
                     </li>
-                    <li class="menu-item"><a href="{{route("portfolio")}}" style="font-family: Rany;">Portfolio</a>
+                    <li class="menu-item"><a href="{{route("portfolio")}}" id="pf" >Portfolio</a>
                         <!--<ul class="sub-menu">
                             <li class="menu-item"><a href="blog-grid.html">Grid</a></li>
                             <li class="menu-item"><a href="blog-fullwidth.html">Fullwidth</a></li>
@@ -39,7 +44,7 @@
                             </li>
                         </ul>-->
                     </li>
-                    <li class=" menu-item "><a href="{{route("whyus")}}" style="font-family: Rany;">Why Us</a>
+                    <li class=" menu-item "><a href="{{route("whyus")}}" id="whyus" >Why Us</a>
                         <!--<ul class="sub-menu">
                             <li class="menu-item "><a href="typography.html">Typography</a></li>
                             <li class="menu-item"><a href="boxed-layout.html">Boxed Layout</a></li>
@@ -48,13 +53,13 @@
                             <li class="menu-item"><a href="coming-soon.html">Coming Soon</a></li>
                         </ul>-->
                     </li>
-                    <li class="menu-item"><a href="{{route("contact")}}" style="font-family: Rany;">Contact</a></li>
+                    <li class="menu-item"><a href="{{route("contact")}}" id="ct" >Contact</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
         </div>
         <div class="mobile_header ">
-            <a href="index.html" class="photty_image_logo"></a>
+            <a href="{{route("index")}}" class="photty_image_logo"></a>
             <a href="javascript:void(0)" class="btn_mobile_menu">
                 <span class="photty_menu_line1"></span>
                 <span class="photty_menu_line2"></span>
@@ -69,25 +74,25 @@
         <!-- ========== Start Header Follow ========== -->
 
         <div class="header-follow">
-            <ul class="social" style="margin-top:-387%">
+            <ul class="social" >
                 <li >
-                    <a class="cursor-alter" href="{{route("contact")}}" ><img src="assets/images/pricing.png" style="max-width: 374%; margin-left:-107%" alt=""></a>
+                    <a class="cursor-alter" href="{{route("contact")}}" ><img id="price" src="assets/images/pricing.png"  alt="Get A Quote"></a>
                 </li>
                             <li >
-                    <a class="cursor-alter" href="#0" ><img src="assets/images/bark.png" style="max-width: 113%;" alt=""></a>
+                    <a class="cursor-alter" href="https://www.bark.com/en/us/company/westcoast-animations/2jgl4/" ><img  src="assets/images/bark.png" id="ba"  alt="Bark"></a>
                 </li>
                 <li >
-                    <a class="cursor-alter" href="#0" ><img src="assets/images/download.png" style="max-width: 113%;" alt=""></a>
+                    <a class="cursor-alter" href="https://www.trustpilot.com/review/westcoastanimations.com" ><img id="ta"  src="assets/images/download.png" alt="Trustpilot"></a>
                 </li>
                 <li >
-                    <a class="cursor-alter" href="https://www.facebook.com/WestcoastAnimation/"><img src="assets/images/fb.webp" style="max-width: 113%;" alt=""></a>
+                    <a class="cursor-alter" href="https://www.facebook.com/WestcoastAnimations/"><img id="fb" src="assets/images/fb.webp"  alt="Facebook"></a>
                 </li>
                 <li>
-                    <a class="cursor-alter" href="https://www.linkedin.com/company/westcoastanimation/"><img src="assets/images/174857.png" style="max-width: 113%;" alt=""></a>
+                    <a class="cursor-alter" href="https://www.linkedin.com/company/westcoastanimation/"><img id="ln" src="assets/images/174857.png"  alt="Linkedin"></a>
                 </li>
                 <li>
-                    <a class="cursor-alter" href="https://www.instagram.com/westcoastanimations/"><img src="assets/images/Instagram_icon.webp" style="max-width: 113%;" alt=""></a>
+                    <a class="cursor-alter" href="https://www.instagram.com/westcoastanimations/"><img id="ig"  src="assets/images/Instagram_icon.webp"  alt="Instagram"></a>
                 </li>
             </ul>
-            <p id="fo" style="font-family: Rany-Bold !important;">Follow Us</p>
+            <p id="fo">Follow Us</p>
         </div>

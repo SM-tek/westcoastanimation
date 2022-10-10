@@ -121,3 +121,4 @@ function photty_set_album_Slide(slideNum) {
 		nextSlide.addClass('photty_albums_next');
 	}
 }
+

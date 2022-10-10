@@ -62,6 +62,11 @@ Table Of Contents
   font-family: "Rany";
   src: url("Rany.otf") format("opentype");
 }
+@font-face {
+  font-family: "Kanit-Bold";
+  src: url("Kanit-Bold.otf") format("opentype");
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -mz-box-sizing: border-box;
@@ -74,7 +79,8 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   /* background-color: #000; */
-  background: rgba(0, 0, 0, 0.7) url(../images/patrn.gif) no-repeat fixed;
+  background: rgba(0, 0, 0, 0.7) url(../images/patrn.jpg) no-repeat fixed;
+  background-position: center center;
   background-size: cover;
   /* opacity: 12; */
   /* background-position: center;
@@ -142,7 +148,7 @@ h6 {
 }
 
 .background-absolute {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -214,7 +220,7 @@ select:-webkit-autofill:focus {
 
 .sub-heading {
   position: relative;
-  font-size: 72px;
+  font-size: 63px;
   margin-top: 7%;
   letter-spacing: 2.5px;
   color: #bbb;
@@ -590,7 +596,7 @@ canvas {
 .slideshow {
   /* position: relative; */
   color: #fff;
-  background-color: #000;
+ /* background-color: #000; */
   overflow: hidden;
   height: 100vh;
   min-height: 400px;
@@ -1022,8 +1028,8 @@ canvas {
 }
 
 .header-follow {
-  top: 50%;
-  left: 30px;
+  top: 40%;
+  left: 96%;
   width: 20px;
   height: 200px;
   position: fixed;
@@ -1112,6 +1118,7 @@ canvas {
 }
 
 .header:before {
+z-index:-10;
   content: "";
   position: absolute;
   top: 28%;
@@ -1985,8 +1992,8 @@ canvas {
 
 .contact-section {
   position: relative;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #101010;
 }
 
@@ -4201,6 +4208,164 @@ iframe {
     }
 } */
 
+@media only screen and (max-device-width: 412px) {
+  .footer-menu-link{
+      margin-left: 13% !important;
+  }
+}
 
+@media only screen and (max-device-width: 412px) {
+  .footer-widget{
+      margin-left: 13% !important;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #ft {
+    margin-left:60%;
+  }
+}
 
+@media only screen and (max-width: 412px) {
+  .widget-title{
+    margin-top:22%;
+  }
+}
 
+@media only screen and (max-width: 412px) {
+  #ft1{
+    margin-left:-94% !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  #ft2{
+    margin-left:0% !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  #ft3{
+    margin-left:5% !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  #ft4{
+    margin-left:0% !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #i{
+    margin-top:79% !important;
+    margin-left: -91% !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  #tab{
+    margin-top:58% !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .footer-menu-link{
+    margin-left:11% !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  #ft2{
+    margin-left:1% !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  #ft4{
+    margin-left:3% !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #ps{
+    margin:3% ;
+    margin-left: 54% !important;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  #ps{
+    margin-left: 52% !important;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  #ps1{
+    margin-right: 13% !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #i{
+    margin-top: 58% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 767px)  {
+#ps{
+margin-top:-11.5% !important;
+}
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 767px)  {
+#ps1{
+margin-top:-11.5% !important;
+}
+
+}
+@media only screen and (max-width: 360px) and (min-width: 359px)  {
+#i{
+margin-top:69% !important;
+}
+
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1365px)  {
+#ps{
+margin-left:53% !important;
+}
+
+}
+@media only screen and (max-width: 1366px) and (min-width: 1365px)  {
+#ps1{
+margin-right:13% !important;
+}
+
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1279px)  {
+body{
+
+    background: rgba(0, 0, 0, 0.7) url(../images/patrnport.jpg) no-repeat fixed;
+}
+
+@media only screen and (max-width: 375px) {
+  #ps{
+    margin:3% ;
+    margin-left: 54% !important;
+  }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 413) {
+  #ps{
+    margin:3% ;
+    margin-left: 54% !important;
+  }
+}
+
+@media only screen and (max-width: 540px) and (min-width: 539) {
+.bark-widget{
+    margin-top: 23.5% !important;
+  }
+}

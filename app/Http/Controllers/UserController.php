@@ -87,4 +87,43 @@ class UserController extends Controller
         return view('terms');
     }
 
+    public function commercial(){
+        return view('commercial');
+    }
+    public function webdevelopment(){
+        return view('webdevelopment');
+    }
+    public function appdevelopment(){
+        return view('appdevelopment');
+    }
+    public function graphic(){
+        return view('graphic');
+    }
+    public function brand(){
+        return view('brand');
+    }
+    public function uiux(){
+        return view('uiux');
+    }
+    public function software(){
+        return view('software');
+    }
+    public function social(){
+        return view('social');
+    }
+    public function videoediting(){
+        return view('videoediting');
+    }
+    public function term(){
+        return view('term');
+    }
+    public function home(){
+        return view('home');
+    }
+    public function home2(){
+        return view('home2');
+    }
+    public function contact2(){
+        return view('contact2');
+    }
 }
