@@ -32,8 +32,44 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
  
-
  
+ 
+ 
+ 
+ 
+ 	<link rel="stylesheet" href="assetstech/css/bootstrap.min.css">
+	<!-- Animate Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/animate.min.css">
+	<!-- FlatIcon CSS -->
+	<link rel="stylesheet" href="assetstech/css/flaticon.css">
+	<!-- Font Awesome Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/fontawesome.min.css">
+	<!-- Mran Menu CSS -->
+	<link rel="stylesheet" href="assetstech/css/meanmenu.css">
+	<!-- Magnific Popup Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/magnific-popup.min.css">
+	<!-- Nice Select Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/nice-select.min.css">
+	<!-- Swiper Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/swiper.min.css">
+	<!-- Owl Carousel Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/owl.carousel.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assetstech/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assetstech/css/responsive.css">
+ 
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GTXWVHEX7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GTXWVHEX7D');
+</script>
+
+
 
         <style>
                         @media only screen and (max-device-width: 414px) {
@@ -398,7 +434,28 @@ margin:16px 0;
 left:0;
 }
 }
-
+.mar{
+margin-top:-10%;
+}
+.marg{
+padding:10%;
+}
+/*
+#web{
+position:absolute;
+left:0px;
+top:512.797px !important;
+}
+#web1{
+position:absolute;
+left:0px;
+top:1087.8px !important;
+}
+#web2{
+position:absolute;
+left:0px;
+top:1595.8px !important;
+} */
             </style>
 
         <!--[if lt IE 9]>
@@ -552,7 +609,7 @@ left:0;
                 </ul>
               </li> 
                                                         <li class="sub-item more">
-                <a class="more-btn"  href="{{route("videoediting")}}">Video Editing</a>
+                <a class="more-btn"  href="{{route("videoediting")}}">Post-Production</a>
               </li> 
             </ul>
             
@@ -584,7 +641,7 @@ left:0;
 
             <!-- ========== Start Portfolio Section ========== -->
 
-            <section class="portfolio">
+            <section class="portfolio" style="margin-top:0px;">
                 <div class="container portfolio-container">
                     <div class="portfolio-filter">
                         <div class="filter-wrap d-flex align-items-center">
@@ -597,6 +654,264 @@ left:0;
                             </div> -->
                         </div>
                     </div>
+                    
+                    
+                    
+                    
+                    
+      <section class="project-area section-padding" >
+        <div class="container">
+			<div class="row">
+				 <!--<div class="col-lg-12 col-md-12">
+					<div class="section-title">
+						<h6>Recent Works</h6>
+						<h2>Our Portfolio</h2>
+					</div>
+				</div> -->
+			</div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="project-list">
+                        <ul class="nav" id="project-flters">
+                            <li class="filter filter-active" data-filter=".all">all</li>
+                            <li class="filter" data-filter=".branding">Post-production</li>
+                            <li class="filter" data-filter=".application">graphic design</li>
+                            <li class="filter" data-filter=".webdesign">web design</li>
+                            <li class="filter" data-filter=".photography">Animations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-container" >
+                
+                    <!-- project-item -->
+                    
+                    <div class="col-lg-6 col-md-6 project-grid-item all branding ">
+                        <div class="project-item mar">
+							<iframe src="https://player.vimeo.com/video/771119456?h=43138985cf" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+                        </div>
+                    </div>
+                                        <div class="col-lg-6 col-md-6 project-grid-item all branding ">
+                        <div class="project-item mar">
+							<iframe src="https://player.vimeo.com/video/771138352?h=a34e30eb38" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+                        </div>
+                    </div>
+                    <!-- project-item -->
+                 <!--   <div class="col-lg-6 col-md-6 project-grid-item all application photography">
+                        <div class="project-item">
+							<img src="assetstech/img/portfolio/portfolio-2.jpg" alt="image">
+                            <div class="project-content-overlay">
+								<p>App Store | Social Media</p>
+								<h3><a href="#">Creative Web Design</a></h3>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- project-item -->
+                    <div class="col-lg-6 col-md-6 project-grid-item all branding ">
+                        <div class="project-item mar">
+									<iframe src="https://player.vimeo.com/video/771133141?h=f7dbb05693" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                                        <div class="col-lg-6 col-md-6 project-grid-item all branding ">
+                        <div class="project-item mar">
+									<iframe src="https://player.vimeo.com/video/771143599?h=afee1fc37d" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- project-item -->
+                    
+                    <div class="col-lg-6 col-md-6 project-grid-item all webdesign" id="web">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/god7likedesign.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>GOD7LIKE | Urban Clothes Shop Web Design</p>
+								<h3><a href="#">Creative Web Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-lg-6 col-md-6 project-grid-item all webdesign" id="web">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/nixonstix.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>NixOnStix | Vape Shop Web Design</p>
+								<h3><a href="#">Creative Web Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                                            <div class="col-lg-6 col-md-6 project-grid-item all webdesign" id="web">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/theultimategamerwebd.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>The Ultimate Gamer | Gaming Services Website</p>
+								<h3><a href="#">Creative Web Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                                            <div class="col-lg-6 col-md-6 project-grid-item all webdesign" id="web">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/bearweb.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>Bear & Co Construction | Construction Services Website</p>
+								<h3><a href="#">Creative Web Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- project-item -->
+
+                                                                                                <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/ipsychiatry-logo.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>iPsychiatry Health | Mental Health Logo Design</p>
+								<h3><a href="#">iPsychiatry Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                                                                                <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/g7like.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>GOD7LIKE | Clothes Brand Logo Design</p>
+								<h3><a href="#">God7like Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                                                                                    <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/Merch Hoodie Design.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>Cities Hoodie | God7like Hoodie Design</p>
+								<h3><a href="#">Merch Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                                            <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/stylebeauty.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>Style Beauty Studio | Beauty Studio Logo</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/god7likenew.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>GOD7LIKE | Urban Clothes Shop Logo Logo</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                        <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/envlogo.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>NimNurceLand House | Environmental Logo Design</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/shoebrand.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>Chameleon | Shoe Brand Logo Design</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                        <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/nybrooklynsalonlogo.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>NY Brooklyn Salon | Beauty Salon Logo Design</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/graffity.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>Graffity Monkey |  NFT Art Design</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                        <div class="col-lg-6 col-md-6 project-grid-item all application" id="web1">
+                        <div class="project-item marg">
+							<img src="assetstech/img/portfolio/nimnurce.jpg" alt="image" >
+                            <div class="project-content-overlay">
+								<p>NimNurceLand House | Environmental Logo Design</p>
+								<h3><a href="#">Logo Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                                        <div class="col-lg-6 col-md-6 project-grid-item all photography" id="web2">
+                        <div class="project-item">
+									<iframe src="https://player.vimeo.com/video/788711557?h=56b3fa7829" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                                                            <div class="col-lg-6 col-md-6 project-grid-item all photography" id="web2">
+                        <div class="project-item">
+									<iframe src="https://player.vimeo.com/video/766039164?h=0b6a8c481c" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                    </div>
+                                                            <div class="col-lg-6 col-md-6 project-grid-item all photography" id="web2">
+                        <div class="project-item">
+									<iframe src="https://player.vimeo.com/video/764107186?h=5c9da3b0b2" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                                                            <div class="col-lg-6 col-md-6 project-grid-item all photography" id="web2">
+                        <div class="project-item">
+									<iframe src="https://player.vimeo.com/video/763737364?h=1aa7bcdfa9" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                    </div>
+                    
+                    <!--  <div class="col-lg-6 col-md-6 project-grid-item all branding" style="margin-top:-10%;">
+                        <div class="project-item">
+                              <video width="100%" height="100%" style="object-fit: fill;" controls  loop muted>
+                                        <source src="assets/images/works/fly fishing.mp4" type="video/mp4">
+                                        <source src="assets/images/works/fly fishing.mp4" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                      </video>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <!--
                                                                                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/715174372?h=e029550395" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> <br>
                                                                                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/716361376?h=e029550395" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
  <br>
@@ -613,33 +928,33 @@ left:0;
                                                                                      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/715107489?h=1b4a135adf" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <br> 
                                                                                      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/714490604?h=1c5694d0b9" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
+-->
          
                     <!-- Portfolio Items Starts -->
                     <div class="portfolio-content">
                         <div class="grid row">
                             <!-- Portfolio Item Starts -->
-                         <!--   <div class="grid__item over-hidden architecture col-12 col-md-6">
-                                <a href="{{route('animation2d')}}">
-                                    <video width="100%" height="100%" style="object-fit: fill;" controls autoplay loop muted>
-                                        <source src="assets/images/works/2dd1.mp4" type="video/mp4">
-                                        <source src="assets/images/works/2dd1.mp4" type="video/ogg">
+                          <!-- <div class="grid__item over-hidden architecture col-12 col-md-6">
+                                <a href="{{route('videoediting')}}">
+                                    <video width="100%" height="100%" style="object-fit: fill;" controls  loop muted>
+                                        <source src="assets/images/works/fly fishing.mp4" type="video/mp4">
+                                        <source src="assets/images/works/fly fishing.mp4" type="video/ogg">
                                         Your browser does not support the video tag.
                                       </video>
                                 </a>
                                 <div class="item-info">
-                                    <h5>2D</h5>
-                                    <a class="cursor-alter" href="{{route('animation2d')}}">
-                                        <h4>Animation</h4>
+                                    <h5>Video</h5>
+                                    <a class="cursor-alter" href="{{route('videoediting')}}">
+                                        <h4>EDITING</h4>
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>  -->
                             <!-- Portfolio Item Ends -->
 
                             <!-- Portfolio Item Starts -->
-                          <!--  <div class="grid__item architecture col-12 col-md-6">
+                            <!-- <div class="grid__item architecture col-12 col-md-6">
                                 <a  href="{{route('animation3d')}}">
-                                    <video width="100%" height="100%" style="object-fit: fill;" controls autoplay loop muted>
+                                    <video width="100%" height="100%" style="object-fit: fill;" controls  loop muted>
                                         <source src="assets/images/works/3d2.mp4" type="video/mp4">
                                         <source src="assets/images/works/3d2.mp4" type="video/ogg">
                                         Your browser does not support the video tag.
@@ -651,7 +966,7 @@ left:0;
                                         <h4>Animation</h4>
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>  -->
                             <!-- Portfolio Item Ends -->
 
                             <!-- Portfolio Item Starts -->
@@ -1150,7 +1465,119 @@ left:0;
 
         <!-- ========== Start Footer Section ========== -->
 
-       @include('components.footer')
+ <section class="contact-section" style="margin-top: -5%">
+    <div class="container">
+        <div class="contact-wrap d-flex justify-content-between">
+            <div class="d-flex flex-column">
+                <p class="sub-heading">Get In Touch</p>
+                <h2 class="heading">Let’s Make Something Great Together</h2>
+            </div>
+            <div class="btn-box d-flex justify-content-end align-items-center">
+
+                <a class="contact-btn align-items-center" href="{{route("contact")}}">
+                    <span class="btn-content d-flex align-items-center">
+                       <span class="btn-circles">
+                           <!-- <span class="btn-circle"></span>
+                            <span class="btn-small-circle d-flex">
+
+                            </span>
+                        </span> -->  
+
+                    </span>
+                </a> 
+            </div>
+            <div class="row" style="margin-top:6%">
+                <div class="col-sm-6">
+                    <div class="footer-widget">
+                        <h6 class="widget-title" style="color:white; margin-right:48%; font-size: 23px;">Services</h6>
+                        <div class="footer-menu-link">
+                            <ul class="list-unstyled">
+                                <li><a href="{{route("animation2d")}}" style="color:white; font-family:Rany-Bold">2D-Animation</a></li>
+                                <li><a href="{{route("animation3d")}}" style="color:white; font-family:Rany-Bold">3D-Animation</a></li>
+                                <li><a href="{{route("logo")}}" style="color:white; font-family:Rany-Bold">Logo-Animation</a></li>
+                              <!--  <li><a href="https://westcoastanimations.com/Typography">Typography</a></li>
+                                <li><a href="https://westcoastanimations.com/Explainer-Videos">Explainer-Videos</a></li>
+                                <li><a href="https://westcoastanimations.com/ScreenCast">Screen-Cast</a></li>
+                                <li><a href="https://westcoastanimations.com/Whiteboard-Animation">White-Board</a></li>
+                                <li><a href="https://westcoastanimations.com/Illustrations">Illustration</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget" id="ft">
+                        <h6 class="widget-title" id="ft1" style="color:white; margin-right:-53%; margin-left:-157%; font-size: 23px;" >Resourses</h6>
+                        <div class="footer-menu-link" >
+                            <ul class="list-unstyled">
+                                <!--<li><a href="blog.html">Blog</a></li>-->
+                                <!--<li><a href="https://westcoastanimations.com/Case-Study">Case Studies</a></li>-->
+                                <li><a href="{{route("portfolio")}}" id="ft2" style="font-family: Rany-Bold !important; color:white; margin-left:-75%">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h6 class="widget-title" id="ft3" style="color:white; margin-left:-12%; font-size: 23px;">Support</h6>
+                        <div class="footer-menu-link">
+                            <ul class="list-unstyled" id="ft4" style="font-family: Rany-Bold !important;color:white; margin-left:-8%" >
+                                <li><a href="{{route("contact")}}" style="color: white">Contact</a></li>
+                                <li><a href="{{route("policy")}}" style="color: white">Privacy_Policy</a></li>
+                                <li><a href="{{("term")}}" style="color: white">T&C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="left-area">
+                    <div class="footer-social-media">
+                        <ul class="list-unstyled d-flex" style="font-family: Rany !important">
+                            <li style="max-width:11%;">
+                                <a href="https://www.facebook.com/WestcoastAnimations/"><img src="assets1/images/project/fbicon.png" alt="facebook"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                              <a href="https://twitter.com/WestcoastAnim">  <img src="assets1/images/project/twittericon.png" alt="Twitter"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                                <a href="https://www.behance.net/westcoastanimations"><img src="assets1/images/project/behanceicon.png" alt="Behance"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                                <a href="https://dribbble.com/Animations01"><img src="assets1/images/project/dribbleicon.png" alt="Dribble"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                                <a href="https://www.youtube.com/@westcoastanimations908"><img src="assets1/images/project/youtubeicon.png" alt="Youtube"></a>
+                            </li>
+                                                        <li style="max-width:11%;">
+                                <a href="https://www.instagram.com/westcoastanimations/"><img src="assets1/images/project/instagramicon.png" alt="Instagram"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-area">
+                    <p style="font-family: Rany !important">2023 &copy; Copyright  <a class="cursor-alter not-hide-cursor" href="#" style="color:white; font-family: Rany !important;" >WestCoast Animations</a>. </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
         <!-- ========== End Footer Section ========== -->
 
         <!-- ========== Start Scroll To Top Section ========== -->
@@ -1240,6 +1667,48 @@ left:0;
   
 
     </script>
+
+
+
+
+
+
+	<script src="assetstech/js/jquery.min.js"></script>
+	<!-- Popper Min JS -->
+	<script src="assetstech/js/popper.min.js"></script>
+	<!-- Bootstrap Min JS -->
+	<script src="assetstech/js/bootstrap.min.js"></script>
+	<!-- MeanMenu JS  -->
+	<script src="assetstech/js/jquery.meanmenu.js"></script>
+	<!-- Appear Min JS -->
+	<script src="assetstech/js/jquery.appear.min.js"></script>
+	<!-- CounterUp Min JS -->
+	<script src="assetstech/js/jquery.waypoints.min.js"></script>
+	<script src="assetstech/js/jquery.counterup.min.js"></script>
+	<!-- Owl Carousel Min JS -->
+	<script src="assetstech/js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup Min JS -->
+	<script src="assetstech/js/jquery.magnific-popup.min.js"></script>
+	<!-- Nice Select Min JS -->
+	<script src="assetstech/js/jquery.nice-select.min.js"></script>
+	<!-- Isotope Min JS -->
+	<script src="assetstech/js/isotope.pkgd.min.js"></script>
+	<!-- Swiper Min JS -->
+	<script src="assetstech/js/swiper.min.js"></script>
+	<!-- WOW Min JS -->
+	<script src="assetstech/js/wow.min.js"></script>
+	<!-- Main JS -->
+	<script src="assetstech/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
 
 
     </body>

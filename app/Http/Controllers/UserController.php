@@ -20,7 +20,7 @@ class UserController extends Controller
             'phone' =>$request->phone,
             'msg' =>$request->msg,
         ];
-        Mail::to('fayzanaliwork@gmail.com')->send(new SampleMail($detail));
+        Mail::to('fayzan.sparklab@gmail.com')->send(new SampleMail($detail));
         return back()->with(['message' => 'Email successfully sent!']);
     }
 
@@ -125,5 +125,11 @@ class UserController extends Controller
     }
     public function contact2(){
         return view('contact2');
+    }
+    public function home3(){
+        return view('home3');
+    }
+    public function refund(){
+        return view('refund');
     }
 }

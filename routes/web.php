@@ -56,3 +56,5 @@ route::get('/term',[UserController::class,'term'])->name('term');
 route::get('/home',[UserController::class,'home'])->name('home');
 route::get('/home2',[UserController::class,'home2'])->name('home2');
 route::get('/contact2',[UserController::class,'home2'])->name('contact2');
+route::get('/home3',[UserController::class,'home3'])->name('home3');
+route::get('/refund',[UserController::class,'refund'])->name('refund');

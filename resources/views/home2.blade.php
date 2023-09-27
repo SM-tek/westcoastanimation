@@ -461,20 +461,23 @@ visibility:visible !important;
 }
 
 #price{
-max-width:376%;
-margin-left:-126%;
+max-width:237%;
+margin-left:-51%;
 
 }
 .wpo-service-area, .wpo-service-area-s2{
-background-image:url(/assets/images/back15.jpg);
+background:rgba(0, 0, 0, 0.6) url(/assets/images/back15.jpg);
+background-blend-mode:multiply;
 background-repeat: round;
 }
 .wpo-project-area, .wpo-project-area-s2{
-background-image:url(/assets/images/back16.jpg);
+background:rgba(0, 0, 0, 0.6 ) url(/assets/images/back16.jpg);
+background-blend-mode:multiply;
 background-repeat: round;
 }
 .mb-53{
-background-image:url(/assets/images/back17.jpg);
+background:rgba(0, 0, 0, 0.6) url(/assets/images/back17.jpg);
+background-blend-mode:multiply;
 background-repeat: round;
 }
 .btn1 {
@@ -493,6 +496,20 @@ background-repeat: round;
 .btnGradientOne{
     background: linear-gradient(180deg, #af318e, transparent);
 }
+
+
+@media only screen and (max-width: 1280px) and (min-width: 1279px){
+#ps{
+margin-top:19.5% !important;
+margin-left: -56% !important;
+}
+#ps1{
+margin-top:19.5% !important;
+margin-left:59% !important;
+}
+
+
+
         </style>
 
         <!--[if lt IE 9]>
@@ -669,7 +686,7 @@ background-repeat: round;
         <div class="header-follow">
             <ul class="social" >
                 <li >
-                    <a class="cursor-alter" href="{{route("contact")}}" ><img id="price" src="assets/images/get.png"  alt="Get A Quote"></a>
+                    <a class="cursor-alter" href="{{route("contact")}}" ><img id="price" src="assets/images/pricingye.png"  alt="Get A Quote"></a>
                 </li>
                             <li >
                     <a class="cursor-alter" href="https://www.bark.com/en/us/company/westcoast-animations/2jgl4/" ><img  src="assets/images/bark.png" id="ba"  alt="Bark"></a>
@@ -873,7 +890,7 @@ background-repeat: round;
 			  <div class="col-lg-12">
 				 <div class="service-cards owl-carousel">
 					<div class="service-card-div gradient-2">
-					   <a href="#">
+					   <a href="https://www.westcoastanimations.com/webdevelopment">
 						  <div class="service-images"><img src="blueket/images/service/creator-rafiki.svg" alt="#"></div>
 						  <div class="service-name">Web <br> Design </div>
 						  <div class="circleffect">
@@ -882,7 +899,7 @@ background-repeat: round;
 					   </a>
 					</div>
 					<div class="service-card-div gradient-2">
-					   <a href="#">
+					   <a href="https://www.westcoastanimations.com/appdevelopment">
 						  <div class="service-images"><img src="blueket/images/service/app.svg" alt="#"></div>
 						  <div class="service-name">App <br> Development </div>
 						  <div class="circleffect">
@@ -891,7 +908,7 @@ background-repeat: round;
 					   </a>
 					</div>
 					<div class="service-card-div gradient-2">
-					   <a href="#">
+					   <a href="https://www.westcoastanimations.com/graphic">
 						  <div class="service-images"><img src="blueket/images/service/design.svg" alt="#"></div>
 						  <div class="service-name">Graphic <br> Design </div>
 						  <div class="circleffect">
@@ -918,7 +935,7 @@ background-repeat: round;
 					   </a>
 					</div>
 					<div class="service-card-div gradient-2">
-					   <a href="#">
+					   <a href="https://www.westcoastanimations.com/social">
 						  <div class="service-images"><img src="blueket/images/service/marketing.svg" alt="#"></div>
 						  <div class="service-name">Social Media <br> Marketing </div>
 						  <div class="circleffect">
@@ -927,7 +944,7 @@ background-repeat: round;
 					   </a>
 					</div>
 					<div class="service-card-div gradient-2">
-						<a href="#">
+						<a href="https://www.westcoastanimations.com/videoediting">
 						   <div class="service-images"><img src="blueket/images/service/video.png" alt="#"></div>
 						   <div class="service-name">Video <br> Editing </div>
 						   <div class="circleffect">
@@ -1271,60 +1288,134 @@ background-repeat: round;
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets1/images/project/img-1.jpg" alt="Social Media Agency">
+                            <img src="assets1/images/project/restaurant.jpg" alt="Social Media Agency">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="#">Closter - Social Media Agency</a></h2>
+                            <h2><a href="#">Taste - Restaurant Website</a></h2>
                             <span>Web Development / Business</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets1/images/project/img-2.png" alt="3D Character">
+                            <img src="assets1/images/project/2dshort.jpg" alt="3D Character">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="#">3D Animation - Video Animations</a></h2>
+                            <h2><a href="#">2D Animation - Short Film By Westcoast Animations</a></h2>
                             <span>2D & 3D Animations</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets1/images/project/shop.jpg" alt="Cleaners Company Logo">
+                            <img src="assets1/images/project/chickenlogo.jpg" alt="Cleaners Company Logo">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="#">BeHappyCleaners - Cleaning Services Logo</a></h2>
+                            <h2><a href="#">FH Chicken - Poultry Services Logo</a></h2>
                             <span>Logo / Designing</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets1/images/project/img-1.jpg" alt="">
+                            <img src="assets1/images/project/restaurant.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="#">Closter - Social Media Agency</a></h2>
+                            <h2><a href="#">Taste - Restaurant Website</a></h2>
                             <span>Web Development / Business</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets1/images/project/img-2.png" alt="">
+                            <img src="assets1/images/project/2dshort.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="#">3D Animation - Video Animations</a></h2>
+                            <h2><a href="#">2D Animation - Short Film By Westcoast Animations</a></h2>
                             <span>2D & 3D Animations</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets1/images/project/shop.jpg" alt="">
+                            <img src="assets1/images/project/chickenlogo.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="#">BeHappyCleaners - Cleaning Services Logo</a></h2>
+                            <h2><a href="#">FH Chicken - Poultry Services Logo</a></h2>
                             <span>Logo / Designing</span>
                         </div>
                     </div>
                 </div>
+                
+                
+                
+                
+                              <div class="wpo-project-wrap wpo-project-slide owl-carousel">
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/nft.jpg" alt="Social Media Agency">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">Mr.Studio - NFT Marketplace</a></h2>
+                            <span>Web Development / Business</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/3dcar.png" alt="3D Character">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">3D Animation - Video Animations</a></h2>
+                            <span>2D & 3D Animations</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/bearco.jpg" alt="Cleaners Company Logo">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">Bear & Co - Construction Services Logo</a></h2>
+                            <span>Logo / Designing</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/nft.jpg" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">Mr.Studio - NFT Marketplace</a></h2>
+                            <span>Web Development / Business</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/3dcar.png" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">3D Animation - Video Animations</a></h2>
+                            <span>2D & 3D Animations</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets1/images/project/bearco.jpg" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="#">Bear & Co - Construction Services Logo</a></h2>
+                            <span>Logo / Designing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
             </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <div class="shape-p">
                 <svg width="1325" height="1687" viewBox="0 0 1325 1687" fill="none">
                     <g filter="url(#filter0_f_39_4166)">

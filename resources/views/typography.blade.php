@@ -31,6 +31,45 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/style.css">
                          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+                         
+                         
+                         
+                         
+                         
+                                             	<link rel="stylesheet" href="assetstech/css/bootstrap.min.css">
+	<!-- Animate Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/animate.min.css">
+	<!-- FlatIcon CSS -->
+	<link rel="stylesheet" href="assetstech/css/flaticon.css">
+	<!-- Font Awesome Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/fontawesome.min.css">
+	<!-- Mran Menu CSS -->
+	<link rel="stylesheet" href="assetstech/css/meanmenu.css">
+	<!-- Magnific Popup Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/magnific-popup.min.css">
+	<!-- Nice Select Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/nice-select.min.css">
+	<!-- Swiper Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/swiper.min.css">
+	<!-- Owl Carousel Min CSS -->
+	<link rel="stylesheet" href="assetstech/css/owl.carousel.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assetstech/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assetstech/css/responsive.css">       
+        
+                         
+                        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GTXWVHEX7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GTXWVHEX7D');
+</script> 
+                         
+                         
         <style>
             nav ul, nav ol {
 margin: 18px;
@@ -505,7 +544,7 @@ left:0;
 
             <!-- ========== Start Portfolio Section ========== -->
 
-            <section class="portfolio">
+            <section class="portfolio" style="margin-top:-10%;">
                 <div class="container portfolio-container">
                     <div class="portfolio-filter">
                         <div class="filter-wrap d-flex align-items-center">
@@ -518,8 +557,34 @@ left:0;
                             </div>-->
                         </div>
                     </div>
-                    <div style="padding:56.25% 0 0 0;position:relative; z-index:-10;"><iframe src="https://player.vimeo.com/video/715242836?h=2a981d9f1b" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> <br>
-                                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/720642260?h=689ef2c526" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> <br>
+                    
+                    
+                    
+                    
+                                                       <div class="project-container">
+                    <!-- project-item -->
+                    <div class="col-lg-6 col-md-6 project-grid-item all branding ">
+                        <div class="project-item">
+							<iframe src="https://player.vimeo.com/video/715242836?h=2a981d9f1b" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+                        </div>
+                    </div>
+                                        <div class="col-lg-6 col-md-6 project-grid-item all branding ">
+                        <div class="project-item">
+							<iframe src="https://player.vimeo.com/video/720642260?h=689ef2c526" width="1031" height="580" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                 <!--  <div style="padding:56.25% 0 0 0;position:relative; z-index:-10;"><iframe src="https://player.vimeo.com/video/715242836?h=2a981d9f1b" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> <br>
+                                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/720642260?h=689ef2c526" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> <br> -->
                     <!-- Portfolio Items Starts -->
                     <div class="portfolio-content">
                         <div class="grid row">
@@ -562,11 +627,11 @@ left:0;
                             <!-- Portfolio Item Starts -->
                             <!--  <div class="grid__item photography col-12 col-md-6">-->
                               <a class="not-hide-cursor d-block">
-                                    <video width="100%" height="100%" style="object-fit: fill;" controls>
+                                 <!--   <video width="100%" height="100%" style="object-fit: fill;" controls>
                                         <source src="assets/images/works/t3.mp4" type="video/mp4">
                                         <source src="assets/images/works/t3.mp4" type="video/ogg">
                                         Your browser does not support the video tag.
-                                      </video>
+                                      </video>  -->
                                       <!-- <video width="100%" height="100%" style="object-fit: fill;" controls>
                                         <source src="assets/images/works/04.mp4" type="video/mp4">
                                         <source src="assets/images/works/04.mp4" type="video/ogg">
@@ -664,7 +729,119 @@ left:0;
 
         <!-- ========== Start Footer Section ========== -->
 
-   @include('components.footer')
+ <section class="contact-section" style="margin-top: -5%">
+    <div class="container">
+        <div class="contact-wrap d-flex justify-content-between">
+            <div class="d-flex flex-column">
+                <p class="sub-heading">Get In Touch</p>
+                <h2 class="heading">Let’s Make Something Great Together</h2>
+            </div>
+            <div class="btn-box d-flex justify-content-end align-items-center">
+
+                <a class="contact-btn align-items-center" href="{{route("contact")}}">
+                    <span class="btn-content d-flex align-items-center">
+                       <span class="btn-circles">
+                           <!-- <span class="btn-circle"></span>
+                            <span class="btn-small-circle d-flex">
+
+                            </span>
+                        </span> -->  
+
+                    </span>
+                </a> 
+            </div>
+            <div class="row" style="margin-top:6%">
+                <div class="col-sm-6">
+                    <div class="footer-widget">
+                        <h6 class="widget-title" style="color:white; margin-right:48%; font-size: 23px;">Services</h6>
+                        <div class="footer-menu-link">
+                            <ul class="list-unstyled">
+                                <li><a href="{{route("animation2d")}}" style="color:white; font-family:Rany-Bold">2D-Animation</a></li>
+                                <li><a href="{{route("animation3d")}}" style="color:white; font-family:Rany-Bold">3D-Animation</a></li>
+                                <li><a href="{{route("logo")}}" style="color:white; font-family:Rany-Bold">Logo-Animation</a></li>
+                              <!--  <li><a href="https://westcoastanimations.com/Typography">Typography</a></li>
+                                <li><a href="https://westcoastanimations.com/Explainer-Videos">Explainer-Videos</a></li>
+                                <li><a href="https://westcoastanimations.com/ScreenCast">Screen-Cast</a></li>
+                                <li><a href="https://westcoastanimations.com/Whiteboard-Animation">White-Board</a></li>
+                                <li><a href="https://westcoastanimations.com/Illustrations">Illustration</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget" id="ft">
+                        <h6 class="widget-title" id="ft1" style="color:white; margin-right:-53%; margin-left:-157%; font-size: 23px;" >Resourses</h6>
+                        <div class="footer-menu-link" >
+                            <ul class="list-unstyled">
+                                <!--<li><a href="blog.html">Blog</a></li>-->
+                                <!--<li><a href="https://westcoastanimations.com/Case-Study">Case Studies</a></li>-->
+                                <li><a href="{{route("portfolio")}}" id="ft2" style="font-family: Rany-Bold !important; color:white; margin-left:-75%">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h6 class="widget-title" id="ft3" style="color:white; margin-left:-12%; font-size: 23px;">Support</h6>
+                        <div class="footer-menu-link">
+                            <ul class="list-unstyled" id="ft4" style="font-family: Rany-Bold !important;color:white; margin-left:-8%" >
+                                <li><a href="{{route("contact")}}" style="color: white">Contact</a></li>
+                                <li><a href="{{route("policy")}}" style="color: white">Privacy_Policy</a></li>
+                                <li><a href="{{("term")}}" style="color: white">T&C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="left-area">
+                    <div class="footer-social-media">
+                        <ul class="list-unstyled d-flex" style="font-family: Rany !important">
+                            <li style="max-width:11%;">
+                                <a href="https://www.facebook.com/WestcoastAnimations/"><img src="assets1/images/project/fbicon.png" alt="facebook"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                              <a href="https://twitter.com/WestcoastAnim">  <img src="assets1/images/project/twittericon.png" alt="Twitter"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                                <a href="https://www.behance.net/westcoastanimations"><img src="assets1/images/project/behanceicon.png" alt="Behance"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                                <a href="https://dribbble.com/Animations01"><img src="assets1/images/project/dribbleicon.png" alt="Dribble"></a>
+                            </li>
+                            <li style="max-width:11%;">
+                                <a href="https://www.youtube.com/@westcoastanimations908"><img src="assets1/images/project/youtubeicon.png" alt="Youtube"></a>
+                            </li>
+                                                        <li style="max-width:11%;">
+                                <a href="https://www.instagram.com/westcoastanimations/"><img src="assets1/images/project/instagramicon.png" alt="Instagram"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-area">
+                    <p style="font-family: Rany !important">2023 &copy; Copyright  <a class="cursor-alter not-hide-cursor" href="#" style="color:white; font-family: Rany !important;" >WestCoast Animations</a>. </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
 
         <!-- ========== End Footer Section ========== -->
 
@@ -749,6 +926,41 @@ left:0;
     })
 
     </script>
+
+
+
+
+
+    
+            	<script src="assetstech/js/jquery.min.js"></script>
+	<!-- Popper Min JS -->
+	<script src="assetstech/js/popper.min.js"></script>
+	<!-- Bootstrap Min JS -->
+	<script src="assetstech/js/bootstrap.min.js"></script>
+	<!-- MeanMenu JS  -->
+	<script src="assetstech/js/jquery.meanmenu.js"></script>
+	<!-- Appear Min JS -->
+	<script src="assetstech/js/jquery.appear.min.js"></script>
+	<!-- CounterUp Min JS -->
+	<script src="assetstech/js/jquery.waypoints.min.js"></script>
+	<script src="assetstech/js/jquery.counterup.min.js"></script>
+	<!-- Owl Carousel Min JS -->
+	<script src="assetstech/js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup Min JS -->
+	<script src="assetstech/js/jquery.magnific-popup.min.js"></script>
+	<!-- Nice Select Min JS -->
+	<script src="assetstech/js/jquery.nice-select.min.js"></script>
+	<!-- Isotope Min JS -->
+	<script src="assetstech/js/isotope.pkgd.min.js"></script>
+	<!-- Swiper Min JS -->
+	<script src="assetstech/js/swiper.min.js"></script>
+	<!-- WOW Min JS -->
+	<script src="assetstech/js/wow.min.js"></script>
+	<!-- Main JS -->
+	<script src="assetstech/js/main.js"></script>
+
+
+
 
 
     </body>

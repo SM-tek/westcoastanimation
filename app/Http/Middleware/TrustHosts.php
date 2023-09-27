@@ -17,4 +17,15 @@ class TrustHosts extends Middleware
             $this->allSubdomainsOfApplicationUrl(),
         ];
     }
+    
+    
+    
+    
+    
+    
+    protected $headers = [
+    // ... other headers
+    'Content-Security-Policy' => "default-src 'self'; script-src 'self' 'unsafe-inline' cdn.westcoastanimations.com;",
+];
+
 }
