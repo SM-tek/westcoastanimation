@@ -633,7 +633,7 @@ width:80%;
 
 <!-- form code-->
 
-<!--
+
 @if(session()->has('message'))
 <div class="alert alert-success" role="alert">
 {{ session()->get('message') }}
@@ -675,7 +675,7 @@ width:80%;
 
                                     </div>
 
-                                </form> -->
+                                </form> 
 
                             </div>
                             <div class="col-lg-5 col-md-12" style="z-index:-10;">

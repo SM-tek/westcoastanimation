@@ -543,7 +543,72 @@ height:331px !important;
 }
 
 
+.menu-item .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
 
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-item {
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sub-item:last-child {
+    border-bottom: none;
+}
+
+/* Styling for more-submenus (Development, Design, Marketing, Animations) */
+.more-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    width: 100%;
+}
+
+.more-item:last-child {
+    border-bottom: none;
+}
+
+/* Styling for the "more" button in submenus */
+.more-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.more-btn:hover {
+    background-color: #f5f5f5;
+}
+
+/* Styling for the more-submenu (Development, Design, Marketing, Animations) */
+.more-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 200px;
+}
+
+.menu-item .more-item:hover .more-menu {
+    display: block;
+}
 
 
         </style>
@@ -659,6 +724,8 @@ height:331px !important;
           
           <li class="menu-item">
             <a class="sub-btn" href="#">Services <i class="fas fa-angle-down"></i></a>
+          
+
             <ul class="sub-menu">
               <li class="sub-item more">
                 <a class="more-btn" style="background-color: black !important;" href="#">Development <i class="fas fa-angle-right"></i></a>
@@ -700,7 +767,7 @@ height:331px !important;
                             <li class="sub-item more">
                 <a class="more-btn"  href="{{route("videoediting")}}">Post-Production</a>
               </li> 
-            </ul>
+            </ul> 
           </li>
           <li class="menu-item"><a  href="{{route("portfolio")}}">Portfolio</a></li>
           <li class="menu-item"><a  href="{{route("whyus")}}">Why Us</a></li>
